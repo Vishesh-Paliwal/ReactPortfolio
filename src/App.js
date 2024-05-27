@@ -1,6 +1,5 @@
 import './App.css';
-import Nav from './Nav'
-import Intro from './Intro'
+import Page1 from './Page1/Page1'
 import About from './About'
 import Skill from './Skills'
 import Exper from './Experience'
@@ -9,9 +8,7 @@ import Cont from './Contact'
 function App() {
   return (
     <div className="App">
-        <Nav/>
-        <br></br>
-        <Intro/>
+        <Page1></Page1>
         <br></br>
         <About/>
         <br></br>
