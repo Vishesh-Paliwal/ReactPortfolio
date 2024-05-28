@@ -1,17 +1,31 @@
-import './nav.css'
+import React, { useState } from 'react';
+import './nav.css';
 
-function nav(){
-    return <div id="nav-bar">
-        <div id='name'><a href="x">Vishesh Paliwal</a></div>
-        <div id='links'>
-            <a href="page1"> Home </a>
-            <a href="x"> About </a>
-            <a href="x"> Skills </a>
-            <a href="x"> Projects </a>
-            <a href="x"> Experience </a>
-            <a href="x"> Contact </a>
+function Nav() {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    return (
+        <div id="nav-bar">
+            <div id="name">
+                <a href="x">Vishesh Paliwal</a>
+            </div>
+            <div id="hamburger" onClick={toggleMenu}>
+                &#9776;
+            </div>
+            <div id="links" className={isOpen ? 'open' : ''}>
+                <a href="page1">Home</a>
+                <a href="x">About</a>
+                <a href="x">Skills</a>
+                <a href="x">Projects</a>
+                <a href="x">Experience</a>
+                <a href="x">Contact</a>
+            </div>
         </div>
-    </div>
+    );
 }
 
-export default nav;
+export default Nav;
