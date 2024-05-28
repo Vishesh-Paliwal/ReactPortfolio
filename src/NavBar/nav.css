@@ -5,6 +5,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(35, 35, 99);
+    position: fixed;
+    z-index: 2;
 }
 
 #name{
@@ -16,6 +18,15 @@
     text-decoration: none;
     color: white;
     font-size: 2rem;
+}
+
+#name a:hover{
+    color: aqua;
+    transition: 1.5s;
+}
+#links a:hover{
+    color: aqua;
+    transition: 1.5s;
 }
 
 #links a{
