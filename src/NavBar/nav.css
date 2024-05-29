@@ -36,6 +36,19 @@
     transition: 1.5s;
 }
 
+#links a::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: aqua;
+    transition: .5s;
+}
+
+#links a:hover::after{
+    width: 100%;
+}
+
 
 #hamburger {
     display: none;
