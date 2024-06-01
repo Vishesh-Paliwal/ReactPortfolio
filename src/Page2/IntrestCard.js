@@ -1,5 +1,6 @@
+import './IntrestCard.css'
 function intrest({text}){
-    return <div>
+    return <div id='card'>
         {text}
     </div>
 }

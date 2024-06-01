@@ -1,12 +1,19 @@
 #nav-bar {
     display: flex;
     justify-content: space-between;
-    height: 7vh;
     align-items: center;
+    height: 7vh;
     background-color: rgb(35, 35, 99);
-    padding: 10px 20px;
     color: white;
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+    padding: 0 10px; 
+    box-sizing: border-box; /* Ensure padding is included in the width */
 }
+
 
 #name a {
     font-size: 2rem;
@@ -98,3 +105,5 @@
         display: block;
     }
 }
+
+

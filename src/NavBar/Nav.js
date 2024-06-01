@@ -17,8 +17,8 @@ function Nav() {
                 &#9776;
             </div>
             <div id="links" className={isOpen ? 'open' : ''}>
-                <a href="page1">Home</a>
-                <a href="x">About</a>
+                <a href="#page1">Home</a>
+                <a href="#page2">About</a>
                 <a href="x">Skills</a>
                 <a href="x">Projects</a>
                 <a href="x">Experience</a>
@@ -29,3 +29,4 @@ function Nav() {
 }
 
 export default Nav;
+
