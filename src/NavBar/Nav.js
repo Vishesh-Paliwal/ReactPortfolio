@@ -19,7 +19,7 @@ function Nav() {
             <div id="links" className={isOpen ? 'open' : ''}>
                 <a href="#page1">Home</a>
                 <a href="#page2">About</a>
-                <a href="x">Skills</a>
+                <a href="#page3">Skills</a>
                 <a href="x">Projects</a>
                 <a href="x">Experience</a>
                 <a href="x">Contact</a>

@@ -1,7 +1,7 @@
 import './App.css';
 import Page1 from './Page1/Page1'
 // import About from './Page2/About'
-import Skill from './Skills'
+import Skill from './Page3/Skills'
 import Exper from './Experience'
 import Cont from './Contact'
 import Nav from './NavBar/Nav'

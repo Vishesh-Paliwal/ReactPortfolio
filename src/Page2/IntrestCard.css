@@ -1,4 +1,7 @@
 #card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 5vh;
     width: 10vw;
     background-color: rgb(85, 85, 160);

@@ -1,0 +1,31 @@
+#skillpar{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(30, 63, 112);
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px 30px 15px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skillchild{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+#imgdiv img{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
+#skillpar:hover{
+    cursor: pointer;
+    /* box-shadow: rgba(7, 120, 226, 0.8) 0 0 40px 13px; */
+    box-shadow: rgba(3, 206, 189, 0.8) 0 0 40px 13px;
+    transition: 1s;
+}
