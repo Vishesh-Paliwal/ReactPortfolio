@@ -34,3 +34,36 @@
 #fl img {
     border-radius: 600px 1400px 1000px 590px; 
 }
+
+@media only screen and (max-width: 600px) {
+    #page4 h2{
+        transform: translate(10vw , 10vh);
+        font-size: 2rem;
+        font-family: 'Brush Script MT', cursive;
+        color: white;
+    }
+
+    #exp h3{
+        font-size: 1.5rem;
+        color: rgb(27, 223, 27);
+    }
+
+    #exp p{
+        font-size: 1rem;
+    }
+    #exp{
+        transform: translate(10vw , 3vh);
+        width: 40vw;
+    }
+
+    #fl{
+        transform: translate(54vw , -30vh);
+    }
+    
+    #fl img {
+        border-radius: 600px 1400px 1000px 590px; 
+        height: 150px;
+        width: 150px;
+    }
+    
+}
