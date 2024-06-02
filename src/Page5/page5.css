@@ -18,3 +18,18 @@
 #contacard{
     transform: translate(0vw , 20vh);
 }
+
+@media only screen and (max-width: 600px) {
+    #discuss{
+        transform: translate(20vw , 10vh);
+        font-size: 2rem;
+    }
+
+    #mess{
+        height: 50px;
+    }
+
+    #cd{
+        height: 40vh;
+    }
+}
