@@ -59,7 +59,7 @@ function About() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             ></motion.div>
-                <img src={Avatar} alt="self-img" />
+                <img id='profileimg' src={Avatar} alt="self-img" />
                 <div id='txt'>
                     <motion.p
                         ref={ref}

@@ -6,3 +6,44 @@
     color: white;
 }
 
+@media only screen and (max-width: 600px) {
+    #profileimg {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        transform: translate(2vw , -5vh)
+    }
+
+    #ab {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    #txt {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        transform: translate(-28vw, -5vh);
+        margin: 0 10px;
+    }
+
+    #txt p {
+        width: 80vw;
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    #AllCards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #card {
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+        font-size: .6rem;
+    }
+
+}
+
