@@ -12,6 +12,17 @@
     transform: translate(40vw ,10vh);
 }
 
+#title::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 400px;
+    margin-top: 10px;
+    background-color: rgb(26, 167, 21);
+    transform: translateX(-100px);
+    border-radius: 5px;
+}
+
 #skillset{
     display: flex;
     transform: translateY(20vh);

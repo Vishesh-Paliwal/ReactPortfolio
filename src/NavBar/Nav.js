@@ -21,7 +21,7 @@ function Nav() {
                 <a href="#page2">About</a>
                 <a href="#page3">Skills</a>
                 <a href="x">Projects</a>
-                <a href="x">Experience</a>
+                <a href="#page4">Experience</a>
                 <a href="x">Contact</a>
             </div>
         </div>
