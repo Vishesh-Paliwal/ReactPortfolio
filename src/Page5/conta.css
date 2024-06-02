@@ -1,0 +1,41 @@
+.contact-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    height: 35vh;
+    width: 40vw;
+    margin: 0 auto;
+  }
+  
+  .input-field {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 8px #66afe9;
+  }
+  
+  textarea.input-field {
+    height: 100px;
+  }
+  
+  .send-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .send-button:hover {
+    background-color: #45a049;
+  }
+  

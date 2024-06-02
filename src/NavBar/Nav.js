@@ -22,7 +22,7 @@ function Nav() {
                 <a href="#page3">Skills</a>
                 <a href="x">Projects</a>
                 <a href="#page4">Experience</a>
-                <a href="x">Contact</a>
+                <a href="#page5">Contact</a>
             </div>
         </div>
     );
