@@ -69,7 +69,7 @@ function About() {
                     </motion.p>
                 </div>
             </div>
-            <h2>Intrests :</h2>
+            <h2>Interests :</h2>
             <div id='AllCards'>
                 <motion.div
                     drag={!isMobile}

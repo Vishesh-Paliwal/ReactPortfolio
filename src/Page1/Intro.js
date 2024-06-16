@@ -1,4 +1,4 @@
-import GithubImg from "../Assets/github.svg"
+import GithubImg from "../Assets/github2.svg"
 import LinkedinImg from "../Assets/linkedin.svg"
 import Avatar from "../Assets/avatar.svg"
 import Typewriter from 'typewriter-effect'
